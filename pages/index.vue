@@ -6,28 +6,33 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="hero-content wow fadeInLeft delay-0-2s">
-              <h1>Web <span>Design</span> <i>Agency</i></h1>
+              <h1>Digital <span>Agency</span> <i></i></h1>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="hero-right-image mt-20 wow fadeInUp delay-0-4s">
-              <img src="/assets/images/hero/hero-right.png" alt="Hero" />
+<!--              <img
+                  src="/assets/images/logos/TCDT.png"
+                  alt="Hero"
+              />-->
             </div>
           </div>
         </div>
       </div>
       <div class="container-fluid">
         <div class="hero-bottom-image">
-          <img src="/assets/images/hero/hero.jpg" alt="Hero" />
+          <img src="/assets/images/hero/hero_2.jpg" alt="Hero" />
           <div class="hero-social">
-            <a href="#"
+            <a href="https://www.facebook.com/tcdigitaltech"
               ><i class="fab fa-facebook-f"></i> <span>Facebook</span></a
             >
-            <a href="#"><i class="fab fa-twitter"></i> <span>Twitter</span></a>
-            <a href="#"
+            <a href="https://www.instagram.com/tcdigitaltech"><i class="fab fa-instagram"></i> <span>Instagram</span></a>
+            <!--    Closed temporary until we have the accounts        -->
+<!--            <a href="#"
               ><i class="fab fa-dribbble"></i> <span>Dribbble</span></a
             >
-            <a href="#"><i class="fab fa-behance"></i> <span>Behance</span></a>
+            <a href="#"><i class="fab fa-behance"></i> <span>Behance</span></a>-->
+
           </div>
         </div>
       </div>
@@ -42,9 +47,9 @@
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-xl-5 col-lg-3">
-            <div class="about-image rmb-45 wow fadeInUp delay-0-2s">
+            <div class="about-image rmb-45 w-50 mb-65 wow fadeInUp delay-0-2s">
               <img
-                src="/assets/images/about/circle-text.svg"
+                src="/assets/images/about/circle-text-six.svg"
                 alt="Circle Text"
               />
             </div>
@@ -77,7 +82,7 @@
     <div class="headline-area pt-90 rpt-85 rel z-1">
       <div class="container-fluid">
         <div class="headline-text marquee">
-          <span>Web <span>Design</span> Agency</span>
+          <span>Digital <span>Agency</span> </span>
         </div>
       </div>
     </div>

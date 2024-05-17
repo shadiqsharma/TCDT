@@ -9,24 +9,25 @@
           <div class="col-lg-4">
             <div class="footer-logo mb-20 wow fadeInRight delay-0-2s">
               <NuxtLink href="/"
-                ><img src="/assets/images/logos/footer-logo.png" alt="Logo"
+                ><img src="/assets/images/logos/TCDT1.png" alt="Logo"
               /></NuxtLink>
             </div>
           </div>
           <div class="col-lg-8 text-lg-end">
             <div class="social-style-four mb-20 wow fadeInLeft delay-0-2s">
-              <a href="#"
+              <a href="https://www.facebook.com/tcdigitaltech"
                 ><i class="fab fa-facebook-f"></i> <span>Facebook</span></a
               >
-              <a href="#"
-                ><i class="fab fa-twitter"></i> <span>Twitter</span></a
+              <a href="https://www.instagram.com/tcdigitaltech"
+                ><i class="fab fa-instagram"></i> <span>Instagram</span></a
               >
-              <a href="#"
+            <!--              Close temporary Until we got the accounts-->
+<!--              <a href="#"
                 ><i class="fab fa-dribbble"></i> <span>Dribbble</span></a
               >
               <a href="#"
                 ><i class="fab fa-behance"></i> <span>Behance</span></a
-              >
+              >-->
             </div>
           </div>
         </div>
@@ -42,13 +43,12 @@
               <span>Let’s Work Together</span>
             </div>
             <div class="footer-contact-info wow fadeInUp delay-0-3s">
-              <a class="theme-btn style-three" href="mailto:support@gmail.com"
-                >support@gmail.com <i class="far fa-arrow-right"></i
+              <a class="theme-btn style-three"
+                >team@tcdigital.tech<i class="far fa-arrow-right"></i
               ></a>
               <a
                 class="theme-btn style-three phone-number"
-                href="callto:+000(123)45688"
-                >+000 (123) 456 88 <i class="far fa-arrow-right"></i
+                >+6013 2555051<i class="far fa-arrow-right"></i
               ></a>
             </div>
           </div>
@@ -81,12 +81,7 @@
             <div
               class="footer-bottom-menu pt-40 pb-35 rpb-0 wow fadeInRight delay-0-2s"
             >
-              <ul>
-                <li><NuxtLink href="about">About</NuxtLink></li>
-                <li><NuxtLink href="services">Services</NuxtLink></li>
-                <li><NuxtLink href="faqs">Faqs</NuxtLink></li>
-                <li><NuxtLink href="services">How IT Works</NuxtLink></li>
-              </ul>
+
             </div>
           </div>
           <div class="col-xl-4 col-lg-6">
@@ -95,7 +90,7 @@
             >
               <p>
                 Copyright @{{ new Date().getFullYear() }},
-                <NuxtLink href="/">Ygency</NuxtLink> All Rights Reserved
+                <NuxtLink href="/">TC Digital Tech Sdn Bhd (202401010740)</NuxtLink> All Rights Reserved
               </p>
             </div>
           </div>

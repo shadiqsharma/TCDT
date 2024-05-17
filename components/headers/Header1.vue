@@ -7,11 +7,11 @@
           <div class="logo-outer">
             <div class="logo">
               <NuxtLink href="/"
-                ><img
+              ><img
                   src="/assets/images/logos/TCDT1.png"
                   alt="Logo"
                   title="Logo"
-                  style="width:200px; height:80px"
+                  style="width:160px; height:60px"
               /></NuxtLink>
             </div>
           </div>
@@ -23,20 +23,20 @@
                 <div class="mobile-logo">
                   <NuxtLink href="/">
                     <img
-                      src="/assets/images/logos/TCDT1.png"
-                      alt="Logo"
-                      title="Logo"
-                      style="width:200px; height:80px"
+                        src="/assets/images/logos/TCDT1.png"
+                        alt="Logo"
+                        title="Logo"
+                        style="width:160px; height:50px"
                     />
                   </NuxtLink>
                 </div>
 
                 <!-- Toggle Button -->
                 <button
-                  type="button"
-                  class="navbar-toggle"
-                  data-bs-toggle="collapse"
-                  data-bs-target=".navbar-collapse"
+                    type="button"
+                    class="navbar-toggle"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse"
                 >
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
@@ -46,15 +46,15 @@
 
               <div class="navbar-collapse collapse clearfix">
                 <ul
-                  class="navigation onepage clearfix"
-                  v-if="singlePage == true"
+                    class="navigation onepage clearfix"
+                    v-if="singlePage == true"
                 >
-                  <li><a v-scroll-to="'#hero'">Home</a></li>
-                  <li><a v-scroll-to="'#about'">about</a></li>
-                  <li><a v-scroll-to="'#services'">services</a></li>
-                  <li><a v-scroll-to="'#projects'">project</a></li>
-                  <li><a v-scroll-to="'#team'">team</a></li>
-                  <li><a v-scroll-to="'#pricing'">pricing</a></li>
+                  <li><a v-scroll-to="'#hero'" @click="closeMenu">Home</a></li>
+                  <li><a v-scroll-to="'#about'" @click="closeMenu">About</a></li>
+                  <li><a v-scroll-to="'#services'" @click="closeMenu">Services</a></li>
+                  <li><a v-scroll-to="'#projects'" @click="closeMenu">Project</a></li>
+                  <li><a v-scroll-to="'#team'" @click="closeMenu">Team</a></li>
+                  <li><a v-scroll-to="'#pricing'" @click="closeMenu">Pricing</a></li>
                 </ul>
                 <Nav v-else />
               </div>
@@ -98,6 +98,12 @@ export default {
   methods: {
     toggleSidebar() {
       document.querySelector("body").classList.add("side-content-visible");
+    },
+    closeMenu() {
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      if (navbarCollapse.classList.contains('show')) {
+        navbarCollapse.classList.remove('show');
+      }
     },
   },
 };
