@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="ygency">
+  <NuxtLayout name="ygency" :header="1" :footer="1" :singlePage="true">
     <!-- Page Banner Section Start -->
     <section
       class="page-banner pt-210 rpt-150 pb-45 rpb-50 rel z-1"
@@ -9,7 +9,7 @@
         <div class="row">
           <div class="col-xl-10 col-lg-11">
             <h1 class="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
-              We’re Digital Web
+              We’re A World Class
               <img
                 class="mxw-20"
                 src="/assets/images/banner/inside-title1.png"
@@ -20,7 +20,7 @@
                 src="/assets/images/banner/inside-title2.png"
                 alt="title"
               />
-              Development Agency
+              Digital Agency
               <span class="arrow"
                 ><img
                   class="wow fadeInLeft delay-0-6s"
@@ -50,9 +50,7 @@
         <div class="row">
           <div class="col-lg-6 wow fadeInLeft delay-0-2s">
             <div class="client-text text-lg-start text-center mt-40 pb-50">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptat emey
-              accusantium doloremque laudantium totam aperiam eaque quabillo
-              inventore veritatisey quasi architecto beatae dictasunt
+              Our agency thrives on a culture of collaboration, creativity, and continuous growth. We believe in pushing boundaries, exploring new horizons, and delivering excellence in every project we undertake. Transparency, integrity, and client satisfaction are at the heart of our values, guiding us towards exceeding expectations and forging long-lasting partnerships.
             </div>
             <div class="row">
               <div class="col-xl-10">
@@ -63,32 +61,13 @@
                       alt="Client Logo"
                     />
                   </NuxtLink>
-                  <NuxtLink class="client-logo-item" href="contact">
-                    <img
-                      src="/assets/images/client-logos/client-logo-two2.png"
-                      alt="Client Logo"
-                    />
-                  </NuxtLink>
-                  <NuxtLink class="client-logo-item" href="contact">
-                    <img
-                      src="/assets/images/client-logos/client-logo-two3.png"
-                      alt="Client Logo"
-                    />
-                  </NuxtLink>
+
+
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 wow fadeInRight delay-0-2s">
-            <div class="video-year text-lg-end text-center rel">
-              1980
-              <img
-                class="leaf-shape"
-                src="/assets/images/video/leaf.png"
-                alt="Leaf"
-              />
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
@@ -112,7 +91,7 @@
             <div class="why-choose-item style-two wow fadeInUp delay-0-2s">
               <div class="why-choose-header">
                 <i class="flaticon-creativity"></i>
-                <h5>Customize your site</h5>
+                <h5>Graphic and Video Designs</h5>
               </div>
               <p>
                 At vero eos et accusamus iusto dignissim ducimuse blanditiis
@@ -124,11 +103,10 @@
             <div class="why-choose-item style-two wow fadeInUp delay-0-4s">
               <div class="why-choose-header">
                 <i class="flaticon-mobile-banking"></i>
-                <h5>Edit your mobile view</h5>
+                <h5>Website and Mobile Application Development</h5>
               </div>
               <p>
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                corporis suscipit
+                We create high-performance, visually appealing websites and mobile applications.
               </p>
             </div>
           </div>
@@ -136,11 +114,10 @@
             <div class="why-choose-item style-two wow fadeInUp delay-0-6s">
               <div class="why-choose-header">
                 <i class="flaticon-optimization-1"></i>
-                <h5>Optimize search engines</h5>
+                <h5>Social Media Marketing & Management</h5>
               </div>
               <p>
-                Quis autem vel eum iure reprehenderi qui ea voluptate velit esse
-                quam nihile
+                We offer high-impact Social Media Marketing solutions and expertly manage your pages to drive effortless conversions.
               </p>
             </div>
           </div>
@@ -337,18 +314,19 @@
       class="statistics-area pt-100 rpt-70 rel z-1"
       style="background-image: url(assets/images/hero/hero-two-bg.png)"
     >
-      <div class="container">
+<!--      Closed this section for not much achievements yet -->
+<!--      <div class="container">
         <CountersCounter />
-      </div>
+      </div>-->
     </div>
     <!-- Statistics Area end -->
 
     <!-- Testimonial Area start -->
-    <SlidersTestimonial2 />
+    <SlidersTestimonial2 class=" pt-130 rpt-100 pb-100 rpb-70"/>
     <!-- Testimonial Area end -->
 
-    <!-- Client Logo Two start -->
-    <section class="client-logo-area pt-130 rpt-100 pb-100 rpb-70">
+    <!-- Client Logo Two start. Close for future content. Need to add once we have more clients -->
+<!--    <section class="client-logo-area pt-130 rpt-100 pb-100 rpb-70">
       <div class="container">
         <div class="section-title text-center mb-60">
           <h4>We Have 1520+Global Clients</h4>
@@ -410,7 +388,7 @@
           </NuxtLink>
         </div>
       </div>
-    </section>
+    </section>-->
     <!-- Client Logo Two end -->
   </NuxtLayout>
 </template>

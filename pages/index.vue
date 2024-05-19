@@ -11,10 +11,10 @@
           </div>
           <div class="col-lg-4">
             <div class="hero-right-image mt-20 wow fadeInUp delay-0-4s">
-<!--              <img
+              <img
                   src="/assets/images/logos/TCDT.png"
                   alt="Hero"
-              />-->
+              />
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@
           <div class="col-xl-5 col-lg-3">
             <div class="about-image rmb-45 w-50 mb-65 wow fadeInUp delay-0-2s">
               <img
-                src="/assets/images/about/circle-text-six.svg"
+                  src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716112463/Circle_Text__We_Provide_Creative_Solutions-_white_V2_fmrvoi.png"
                 alt="Circle Text"
               />
             </div>
@@ -58,18 +58,13 @@
             <div class="about-content wow fadeInUp delay-0-4s">
               <div class="section-title mb-40">
                 <span class="sub-title mb-15">About Company</span>
-                <h2>Our Main Goal to Satisficed Local & Global Clients</h2>
+                <h2>Elevate Your Digital Presence with TC Digital Tech</h2>
               </div>
               <div class="content">
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam aperiam eaque quae
-                  abillo inventore veritatisey et quasi architecto beatae vitae
-                  dictasunt explicabo voluptatem.
+                  TC Digital Tech was founded by Datuk Alexander Isaac, a prominent figure in Langkawi's tourism sector and the CEO of Tropical Charters Langkawi.
+                  At TC Digital Tech, we are special because we create custom solutions with the latest technology. We listen carefully to what customers need and have a strong, diverse team that specializes in Digital Solutions. Our team loves their work and is really good at it. We see challenges as opportunities to be creative, making us leaders in our field.
                 </p>
-                <NuxtLink class="read-more mt-10" href="about"
-                  >Read More <i class="far fa-arrow-right"></i
-                ></NuxtLink>
               </div>
             </div>
           </div>
@@ -96,21 +91,18 @@
             <div class="what-we-do-content mb-55">
               <div class="section-title mb-60 wow fadeInUp delay-0-2s">
                 <span class="sub-title mb-15">What We Do</span>
-                <h2>Latest Way to Get Web Solutions & Business Growth</h2>
+                <h2>We offer a range of services to help your brand shine online.</h2>
               </div>
               <div class="what-we-do-item wow fadeInUp delay-0-3s">
                 <div class="number">
                   <span>01</span>
                 </div>
                 <div class="content">
-                  <h5>Mobile Solutions</h5>
+                  <h5>Website and Mobile Development</h5>
                   <p>
-                    Sed ut perspiciatis unde omnis natus error voluptatem
-                    accusantium doloremque
+                    Creating websites that are both creative and functional, leaving a lasting impression on your audience and improve conversions.
                   </p>
-                  <NuxtLink class="read-more style-two" href="service-details"
-                    ><span>Read More</span> <i class="far fa-arrow-right"></i
-                  ></NuxtLink>
+
                 </div>
               </div>
               <div class="what-we-do-item wow fadeInUp delay-0-5s">
@@ -118,14 +110,11 @@
                   <span>02</span>
                 </div>
                 <div class="content">
-                  <h5>Web Solutions</h5>
+                  <h5>Social Media Marketing and Management</h5>
                   <p>
-                    Quis autem veleum iure reprehe nderitecy quie voluptate
-                    velit esse quam nihile
+                    Engage your audience, increase your presence, and drive conversions with strategic social media campaigns. We handle social media management so you can focus on your business.
                   </p>
-                  <NuxtLink class="read-more style-two" href="service-details"
-                    ><span>Read More</span> <i class="far fa-arrow-right"></i
-                  ></NuxtLink>
+
                 </div>
               </div>
               <div class="what-we-do-item wow fadeInUp delay-0-7s">
@@ -133,14 +122,10 @@
                   <span>03</span>
                 </div>
                 <div class="content">
-                  <h5>Custome Solutions</h5>
+                  <h5>Graphic Design and Video Editing</h5>
                   <p>
-                    We denounce with righteous indignation and dislike beguiled
-                    demoralized charms
+                    Turning ideas into eye-catching visuals that match your requirements while increasing the performance and creating engaging videos that tell your story effectively.
                   </p>
-                  <NuxtLink class="read-more style-two" href="service-details"
-                    ><span>Read More</span> <i class="far fa-arrow-right"></i
-                  ></NuxtLink>
                 </div>
               </div>
             </div>
@@ -148,7 +133,7 @@
           <div class="col-xl-6">
             <div class="what-we-do-image mb-55 wow fadeInRight delay-0-2s">
               <img
-                src="/assets/images/services/what-we-do.jpg"
+                src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716112080/Frame_48_wkxcww.png"
                 alt="What We Do"
               />
             </div>
@@ -175,7 +160,7 @@
               class="section-title text-center mb-60 wow fadeInUp delay-0-2s"
             >
               <span class="sub-title mb-20">Popular Services</span>
-              <h2>We Provide Amazing Web Design Solutions</h2>
+              <h2>We Provide Amazing Digital Solutions</h2>
             </div>
           </div>
         </div>
@@ -184,17 +169,13 @@
             <div class="service-three-item wow fadeInUp delay-0-2s">
               <div class="title-icon">
                 <h5>
-                  <NuxtLink href="service-details"
-                    >Web Design From Figma</NuxtLink
-                  >
+                  Graphic Design Services
                 </h5>
-                <img src="/assets/images/services/icon1.png" alt="Icon" />
+                <img src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716105140/Photoshop_pbzjkz.png" alt="Icon" />
+                <img src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716105140/Illustrator_g7opca.png" alt="Icon" />
               </div>
               <div class="content">
-                <p>We denounce with righteous indignation dislike beguile</p>
-                <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Read More</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <p>We craft exceptional designs using Adobe Photoshop and Illustrator.</p>
               </div>
             </div>
           </div>
@@ -202,17 +183,12 @@
             <div class="service-three-item wow fadeInDown delay-0-2s">
               <div class="title-icon">
                 <h5>
-                  <NuxtLink href="service-details"
-                    >PSD, Figma, XD to HTML Convert</NuxtLink
-                  >
+                  Video Editting
                 </h5>
-                <img src="/assets/images/services/icon2.png" alt="Icon" />
+                <img src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716105140/Premiere_nbfkai.png" alt="Icon" /><img src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716105140/Davinci_odiool.png" alt="Icon" />
               </div>
               <div class="content">
-                <p>At vero eos et accusamus et dignissim ducimbl ditiis</p>
-                <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Read More</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <p>We craft exceptional videos using Adobe Premiere Pro, DaVinci Resolve, and CapCut.</p>
               </div>
             </div>
           </div>
@@ -220,17 +196,13 @@
             <div class="service-three-item wow fadeInUp delay-0-2s">
               <div class="title-icon">
                 <h5>
-                  <NuxtLink href="service-details"
-                    >WordPress Development</NuxtLink
-                  >
+                  WordPress Development
                 </h5>
                 <img src="/assets/images/services/icon3.png" alt="Icon" />
               </div>
               <div class="content">
-                <p>To take trivial example which ever undertakes laborious</p>
-                <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Read More</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <p>We create fast and secure Wordpress Websites.</p>
+
               </div>
             </div>
           </div>
@@ -238,15 +210,13 @@
             <div class="service-three-item wow fadeInDown delay-0-2s">
               <div class="title-icon">
                 <h5>
-                  <NuxtLink href="service-details">React Development</NuxtLink>
+                  Javascript Websites
                 </h5>
-                <img src="/assets/images/services/icon4.png" alt="Icon" />
+                <img src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716106811/Javascript_kl9gun.png" alt="Icon" />
+                <img src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716106811/nuxt_rvu95r.png" alt="Icon" />
               </div>
               <div class="content">
-                <p>Sed persiciatis unde omnisey natus error voluptatem</p>
-                <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Read More</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <p>We create powerful websites using Javascript Frameworks like Nuxtjs.</p>
               </div>
             </div>
           </div>
@@ -360,7 +330,7 @@
               class="section-title text-center mb-55 wow fadeInUp delay-0-2s"
             >
               <span class="sub-title mb-20">Team Members</span>
-              <h2>Meet Our Professionals Team</h2>
+              <h2>Meet Our Management Team</h2>
             </div>
           </div>
         </div>
@@ -375,16 +345,34 @@
                 <img src="/assets/images/team/member1.jpg" alt="Team Member" />
               </div>
               <div class="content">
-                <h4>Patrick V. Schroeder</h4>
-                <span>UI/UX Designer</span>
-                <NuxtLink class="read-more" href="team-details"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <h4>Dato' Alexander Isaac</h4>
+                <span>Founder</span>
               </div>
               <div class="btn-social">
-                <NuxtLink class="read-more" href="team-details"
-                  ><span>View Details</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <span>Dato' Alex is an innovator and a prominent figure in Langkawi's tourism industry. His love for technology and innovation led him to found this agency, which is staffed with experts from various fields.
+                </span>
+
+                <div class="social-style-two">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="team-member wow fadeInUp delay-0-2s">
+              <div class="image">
+                <img src="/assets/images/team/member1.jpg" alt="Team Member" />
+              </div>
+              <div class="content">
+                <h4>Shadiq Abdullah</h4>
+                <span>Lead for Software Development and Business Growth</span>
+              </div>
+              <div class="btn-social">
+                <span>Shadiq brings 25 years of experience in sales and business development, with a focus on technology and software. His diverse skill set is poised to elevate the company to new heights while ensuring clients receive top-tier service and exceptional results.
+                </span>
                 <div class="social-style-two">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
@@ -400,16 +388,12 @@
                 <img src="/assets/images/team/member2.jpg" alt="Team Member" />
               </div>
               <div class="content">
-                <h4>Michael A. Braun</h4>
-                <span>UI/UX Designer</span>
-                <NuxtLink class="read-more" href="team-details"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <h4>Mohd Arifuddin Bin Rahmad</h4>
+                <span>Creative Lead</span>
               </div>
               <div class="btn-social">
-                <NuxtLink class="read-more" href="team-details"
-                  ><span>View Details</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <span>With over 15 years of experience in graphic design, video/photography, and social media design, Arif is a seasoned professional. A leader in his field, Arif is an invaluable asset to any creative team.
+                </span>
                 <div class="social-style-two">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
@@ -425,16 +409,11 @@
                 <img src="/assets/images/team/member3.jpg" alt="Team Member" />
               </div>
               <div class="content">
-                <h4>James V. Decastro</h4>
-                <span>Senior Marketer</span>
-                <NuxtLink class="read-more" href="team-details"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <h4>Tricia Ng</h4>
+                <span>Lead UI/UX & Web Designer</span>
               </div>
               <div class="btn-social">
-                <NuxtLink class="read-more" href="team-details"
-                  ><span>View Details</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <span>Tricia has been designing web systems and focusing on UI/UX design for over seven years, working with both enterprise and SME clients. Her designs prioritize user experience and logical flow.</span>
                 <div class="social-style-two">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
@@ -450,16 +429,11 @@
                 <img src="/assets/images/team/member4.jpg" alt="Team Member" />
               </div>
               <div class="content">
-                <h4>Troy V. Richardson</h4>
-                <span>Web Designer</span>
-                <NuxtLink class="read-more" href="team-details"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <h4>Sandra Cheah</h4>
+                <span>Lead Content Manager</span>
               </div>
               <div class="btn-social">
-                <NuxtLink class="read-more" href="team-details"
-                  ><span>View Details</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
+                <span>Sandra leads content creation and management across various industries. Renowned for her positive attitude and meticulous content planning, she is an invaluable member of the TC Digital Team.</span>
                 <div class="social-style-two">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
@@ -469,31 +443,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="team-member wow fadeInUp delay-0-6s">
-              <div class="image">
-                <img src="/assets/images/team/member5.jpg" alt="Team Member" />
-              </div>
-              <div class="content">
-                <h4>Michael A. Braun</h4>
-                <span>Apps Designer</span>
-                <NuxtLink class="read-more" href="team-details"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="btn-social">
-                <NuxtLink class="read-more" href="team-details"
-                  ><span>View Details</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
-                <div class="social-style-two">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
@@ -624,8 +574,8 @@
     </section>
     <!-- Pricing style three end -->
 
-    <!-- Why Choose Us Area start -->
-    <section class="why-choose-area pt-90 rpt-60 rel z-1">
+    <!-- Why Choose Us Area start  Commented for future use-->
+<!--    <section class="why-choose-area pt-90 rpt-60 rel z-1">
       <div class="container-fluid">
         <div class="row">
           <div class="col-xl-7">
@@ -696,7 +646,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
     <!-- Why Choose Us Area end -->
 
     <!-- Headline area start -->
@@ -713,8 +663,8 @@
     <SlidersTestimonial />
     <!-- Testimonial Area end -->
 
-    <!-- Blog Style Two start -->
-    <section class="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
+    <!-- Blog Style Two start Commented out for future use. -->
+<!--    <section class="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
       <div class="container container-1290">
         <div class="row justify-content-center">
           <div class="col-xl-8 col-lg-10">
@@ -809,7 +759,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
     <!-- Blog Style Two end -->
   </NuxtLayout>
 </template>
