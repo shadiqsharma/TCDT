@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="ygency">
+  <NuxtLayout name="ygency" :header="1" :footer="1" :singlePage="true">
     <PageBanner :pageName="'Contact'" />
     <!-- Contact Form Area start -->
     <section class="contact-page-area py-130 rpy-100 rel z-1">
@@ -18,123 +18,33 @@
               <div class="row gap-80 pb-30">
                 <div class="col-sm-6">
                   <div class="our-location-address mb-40">
-                    <h5>New York</h5>
-                    <p>55 One State Road, 2nd Block New York, United States</p>
-                    <a class="mailto" href="mailto:support@gmail.com"
-                      >support@gmail.com</a
-                    ><br />
-                    <a class="callto" href="callto:+00012345688"
-                      ><i class="fas fa-phone"></i> +000 (123) 456 88</a
-                    >
+                    <h5>Langkawi</h5>
+                    <p>TC Garden Resort, Lot 39, Kg Padang Ragut, Jalan Ulu Melaka, Mukim Ayer Hangat, 07000, Langkawi</p>
+                    <a class="mailto" ref="emailLangkawi"></a><br />
+                    <a class="callto" href="tel:+60132555051"><i class="fas fa-phone"></i> +60 (13) 2555051</a><br />
+
                   </div>
                 </div>
                 <div class="col-sm-6">
-                  <div class="our-location-address mb-40">
-                    <h5>Australia</h5>
-                    <p>67 One State Road, 2nd Block Melbourne, Australia</p>
-                    <a class="mailto" href="mailto:support@gmail.com"
-                      >support@gmail.com</a
-                    ><br />
-                    <a class="callto" href="callto:+00012345688"
-                      ><i class="fas fa-phone"></i> +000 (123) 456 88</a
-                    >
-                  </div>
+                  <!-- Other location or additional content can go here -->
                 </div>
               </div>
               <h4>Follow Us</h4>
               <div class="social-style-two pt-15">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/tcdigitaltech"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/tcdigitaltech"><i class="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
           <div class="col-xl-5 col-lg-6">
-            <div
-              class="contact-page-form form-style-one wow fadeInUp delay-0-2s"
-            >
+            <div class="contact-page-form form-style-one wow fadeInUp delay-0-2s">
               <div class="section-title mb-35">
                 <span class="sub-title mb-15">Get Free Quote</span>
-                <h3>Drop Us a Message</h3>
+                <h3>Drop Us a Message on Whatsapp and we will get back to you soonest we can.</h3>
               </div>
-              <form id="contactForm" class="contactForm" @submit.prevent="">
-                <div class="row gap-60 pt-15">
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <label for="name"><i class="far fa-user"></i></label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        class="form-control"
-                        value=""
-                        placeholder="Full Name"
-                        required
-                        data-error="Please enter your name"
-                      />
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <label for="phone_number"
-                        ><i class="far fa-phone"></i
-                      ></label>
-                      <input
-                        type="text"
-                        id="phone_number"
-                        name="phone_number"
-                        class="form-control"
-                        value=""
-                        placeholder="Phone"
-                        required
-                        data-error="Please enter your Number"
-                      />
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <label for="email"><i class="far fa-envelope"></i></label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        class="form-control"
-                        value=""
-                        placeholder="Email Address"
-                        required
-                        data-error="Please enter your Email Address"
-                      />
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <label for="message"><i class="far fa-pencil"></i></label>
-                      <textarea
-                        name="message"
-                        id="message"
-                        class="form-control"
-                        rows="2"
-                        placeholder="Message"
-                        required
-                        data-error="Please enter your Message"
-                      ></textarea>
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group pt-5 mb-0">
-                      <button type="submit" class="theme-btn style-two w-100">
-                        Send Message us <i class="far fa-arrow-right"></i>
-                      </button>
-                      <div id="msgSubmit" class="hidden"></div>
-                    </div>
-                  </div>
-                </div>
-              </form>
+              <a class="whatsapp-btn" href="https://wa.me/60132555051?text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp Us
+              </a>
             </div>
           </div>
         </div>
@@ -147,11 +57,11 @@
       <div class="container-fluid">
         <div class="our-location">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m12!1m10!1m3!1d142190.2862584524!2d-74.01298319978558!3d40.721725351435126!2m1!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1663473911885!5m2!1sen!2sbd"
-            style="border: 0; width: 100%"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15859.518228640625!2d99.80133579999999!3d6.40951255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304c7be50d963753%3A0x4d0bf62837574726!2sTC%20Garden%20Resort!5e0!3m2!1sen!2smy!4v1716287864403!5m2!1sen!2smy"
+              style="border: 0; width: 100%"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
@@ -163,5 +73,38 @@
 <script>
 export default {
   name: "contact",
+  mounted() {
+    this.decodeEmail();
+  },
+  methods: {
+    decodeEmail() {
+      function decode(encodedString) {
+        return atob(encodedString);
+      }
+
+      const langkawiEmail = 'dGVhbUB0Y2RpZ2l0YWwudGVjaAo='; // Base64 encoded 'team@tcdigital.tech'
+      const emailElement = this.$refs.emailLangkawi;
+
+      emailElement.href = 'mailto:' + decode(langkawiEmail);
+      emailElement.innerText = decode(langkawiEmail);
+    }
+  }
 };
 </script>
+
+<style scoped>
+.whatsapp-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #25d366;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.whatsapp-btn i {
+  margin-right: 10px;
+}
+</style>

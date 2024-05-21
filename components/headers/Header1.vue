@@ -55,6 +55,7 @@
                   <li><a v-scroll-to="'#projects'" @click="closeMenu">Project</a></li>
                   <li><a v-scroll-to="'#team'" @click="closeMenu">Team</a></li>
                   <li><a v-scroll-to="'#pricing'" @click="closeMenu">Pricing</a></li>
+                  <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
                 </ul>
                 <Nav v-else />
               </div>

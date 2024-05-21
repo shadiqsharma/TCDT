@@ -31,9 +31,7 @@
                   </div>
                   <div class="author-speech">
                     <p>
-                      On the other hand we denounce see with righteous
-                      indignation and dislike men who are so beguiled
-                      demoralized by the charms pleasure moment
+                      TC Digital Tech is super! They helped me tell everyone about my business on Facebook. Now, more people like my page!
                     </p>
                   </div>
                   <div class="middle-quote">
@@ -44,8 +42,36 @@
                   <div class="testimonial-footer">
                     <div class="testimonial-author">
                       <div class="author-info">
-                        <h4>Richard S. Robertson</h4>
-                        <span class="designation">CEO & Founder</span>
+                        <h4>Siti Aiyshah</h4>
+                        <span class="designation">Business Owner</span>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide class="testimonial-item style-three">
+                  <div class="ratting style-two">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="author-speech">
+                    <p>
+                      Arif from TC Digital Tech is great person to work with. He listen and follow all our requirements for our video.
+                      Great experience working with their team. Great job guys!
+                    </p>
+                  </div>
+                  <div class="middle-quote">
+                    <div class="icon">
+                      <i class="flaticon-right-quote"></i>
+                    </div>
+                  </div>
+                  <div class="testimonial-footer">
+                    <div class="testimonial-author">
+                      <div class="author-info">
+                        <h4>Mr. Ridzuan Zakaria</h4>
+                        <span class="designation">Resort Owner</span>
                       </div>
                     </div>
                   </div>
@@ -60,9 +86,7 @@
                   </div>
                   <div class="author-speech">
                     <p>
-                      On the other hand we denounce see with righteous
-                      indignation and dislike men who are so beguiled
-                      demoralized by the charms pleasure moment
+                      Thanks TC Digital Tech! They fixed my website and made it look so cool. Now, I get lots of likes on Instagram too!
                     </p>
                   </div>
                   <div class="middle-quote">
@@ -73,70 +97,13 @@
                   <div class="testimonial-footer">
                     <div class="testimonial-author">
                       <div class="author-info">
-                        <h4>Richard S. Robertson</h4>
-                        <span class="designation">CEO & Founder</span>
+                        <h4>Tracy Loh</h4>
+                        <span class="designation">Business Owner</span>
                       </div>
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide class="testimonial-item style-three">
-                  <div class="ratting style-two">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                  </div>
-                  <div class="author-speech">
-                    <p>
-                      On the other hand we denounce see with righteous
-                      indignation and dislike men who are so beguiled
-                      demoralized by the charms pleasure moment
-                    </p>
-                  </div>
-                  <div class="middle-quote">
-                    <div class="icon">
-                      <i class="flaticon-right-quote"></i>
-                    </div>
-                  </div>
-                  <div class="testimonial-footer">
-                    <div class="testimonial-author">
-                      <div class="author-info">
-                        <h4>Richard S. Robertson</h4>
-                        <span class="designation">CEO & Founder</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide class="testimonial-item style-three">
-                  <div class="ratting style-two">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                  </div>
-                  <div class="author-speech">
-                    <p>
-                      On the other hand we denounce see with righteous
-                      indignation and dislike men who are so beguiled
-                      demoralized by the charms pleasure moment
-                    </p>
-                  </div>
-                  <div class="middle-quote">
-                    <div class="icon">
-                      <i class="flaticon-right-quote"></i>
-                    </div>
-                  </div>
-                  <div class="testimonial-footer">
-                    <div class="testimonial-author">
-                      <div class="author-info">
-                        <h4>Richard S. Robertson</h4>
-                        <span class="designation">CEO & Founder</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
+
               </Swiper>
             </div>
             <div
@@ -155,7 +122,7 @@
         <div class="col-lg-6">
           <div class="testimonials-three-image wow fadeInRight delay-0-2s">
             <img
-              src="/assets/images/testimonials/testimonials-three.jpg"
+              src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716285852/making-connections-that-count-towards-his-success-shot-two-young-designers-shaking-hands-together-office_kqit7n.jpg"
               alt="Testimonials"
             />
           </div>

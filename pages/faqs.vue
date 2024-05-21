@@ -1,6 +1,6 @@
 <template>
-  <NuxtLayout name="ygency">
-    <PageBanner :pageName="'Faqs'" />
+  <NuxtLayout name="ygency" :header="1" :footer="1" :singlePage="true">
+  <PageBanner :pageName="'Faqs'" />
     <!-- FAQ's Area start -->
     <section class="faq-area pt-130 rpt-100 pb-130 rpb-75 rel z-1">
       <div class="container">

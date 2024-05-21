@@ -40,7 +40,7 @@
         <div class="video-part style-two mb-40 wow fadeInUp delay-0-2s">
           <img src="/assets/images/video/video-two-bg.jpg" alt="Video" />
           <a
-            href="https://www.youtube.com/embed/9Y7ma241N8k"
+            href="https://www.youtube.com/embed/fQWNeIiFf_s?si=tgzB-3NC55N3DJVe"
             class="mfp-iframe video-play"
             ><i class="fas fa-play"></i
           ></a>

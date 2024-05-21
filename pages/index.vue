@@ -62,7 +62,6 @@
               </div>
               <div class="content">
                 <p>
-                  TC Digital Tech was founded by Datuk Alexander Isaac, a prominent figure in Langkawi's tourism sector and the CEO of Tropical Charters Langkawi.
                   At TC Digital Tech, we are special because we create custom solutions with the latest technology. We listen carefully to what customers need and have a strong, diverse team that specializes in Digital Solutions. Our team loves their work and is really good at it. We see challenges as opportunities to be creative, making us leaders in our field.
                 </p>
               </div>
@@ -242,15 +241,11 @@
           <div class="col-xl-6 col-lg-8">
             <div class="section-title mb-30 wow fadeInLeft delay-0-2s">
               <span class="sub-title mb-15">Recent Works Gallery</span>
-              <h2>Lat’s Look Our Recent Project Gallery</h2>
+              <h2>Let’s Look Our Recent Project Gallery</h2>
             </div>
           </div>
           <div class="col-lg-4 text-lg-end">
-            <NuxtLink
-              href="projects"
-              class="theme-btn mb-25 wow fadeInRight delay-0-2s"
-              >View More Projects <i class="far fa-arrow-right"></i
-            ></NuxtLink>
+
           </div>
         </div>
 
@@ -258,63 +253,69 @@
           <div class="content">
             <span class="serial-number">01</span>
             <h4>
-              <NuxtLink href="project-details"
-                >Business Task Management Dashboard Design</NuxtLink
-              >
+              Travel Website with CMS and Ecommerce Services.
+              <a href="https://www.tclangkawiholidays.com" target="_blank">www.tclangkawiholidays.com</a>
             </h4>
           </div>
           <div class="image">
             <img
-              src="/assets/images/projects/project-timeline1.jpg"
+              src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716279229/Website_photo_imb1ht.png"
               alt="Project TimeLine Image"
             />
           </div>
           <div class="right-btn">
-            <NuxtLink class="details-btn" href="project-details"
-              ><i class="fal fa-long-arrow-right"></i
-            ></NuxtLink>
+
           </div>
         </div>
         <div class="project-timeline wow fadeInUp delay-0-2s">
           <div class="content">
             <span class="serial-number">02</span>
             <h4>
-              <NuxtLink href="project-details"
-                >PSD, Figma & XD to HTML Design & Development</NuxtLink
-              >
+             Graphic Design for business owners.
             </h4>
           </div>
           <div class="image">
             <img
-              src="/assets/images/projects/project-timeline2.jpg"
+              src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716281415/Graphic_Work_x0uwax.png"
               alt="Project TimeLine Image"
             />
           </div>
           <div class="right-btn">
-            <NuxtLink class="details-btn" href="project-details"
-              ><i class="fal fa-long-arrow-right"></i
-            ></NuxtLink>
+
           </div>
         </div>
         <div class="project-timeline wow fadeInUp delay-0-2s">
           <div class="content">
             <span class="serial-number">03</span>
             <h4>
-              <NuxtLink href="project-details"
-                >Mobile Application Design & Development</NuxtLink
-              >
+              Video Editing and Shoots
             </h4>
           </div>
           <div class="image">
             <img
-              src="/assets/images/projects/project-timeline3.jpg"
+              src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716281414/Video_Work_i06vv0.png"
               alt="Project TimeLine Image"
             />
           </div>
           <div class="right-btn">
-            <NuxtLink class="details-btn" href="project-details"
-              ><i class="fal fa-long-arrow-right"></i
-            ></NuxtLink>
+
+          </div>
+        </div>
+        <div class="project-timeline wow fadeInUp delay-0-2s">
+          <div class="content">
+            <span class="serial-number">04</span>
+            <h4>
+              Social Media Management
+            </h4>
+          </div>
+          <div class="image">
+            <img
+              src="https://res.cloudinary.com/dgsljij3o/image/upload/v1716281428/website_social_media_qloqfv.png"
+              alt="Project TimeLine Image"
+            />
+          </div>
+          <div class="right-btn">
+
           </div>
         </div>
       </div>
@@ -339,28 +340,7 @@
         <div
           class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center"
         >
-          <div class="col">
-            <div class="team-member wow fadeInUp delay-0-2s">
-              <div class="image">
-                <img src="/assets/images/team/member1.jpg" alt="Team Member" />
-              </div>
-              <div class="content">
-                <h4>Dato' Alexander Isaac</h4>
-                <span>Founder</span>
-              </div>
-              <div class="btn-social">
-                <span>Dato' Alex is an innovator and a prominent figure in Langkawi's tourism industry. His love for technology and innovation led him to found this agency, which is staffed with experts from various fields.
-                </span>
 
-                <div class="social-style-two">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-2s">
               <div class="image">
@@ -368,15 +348,12 @@
               </div>
               <div class="content">
                 <h4>Shadiq Abdullah</h4>
-                <span>Lead for Software Development and Business Growth</span>
+                <span>Business and Software Development</span>
               </div>
               <div class="btn-social">
                 <span>Shadiq brings 25 years of experience in sales and business development, with a focus on technology and software. His diverse skill set is poised to elevate the company to new heights while ensuring clients receive top-tier service and exceptional results.
                 </span>
                 <div class="social-style-two">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
               </div>
@@ -385,10 +362,10 @@
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-3s">
               <div class="image">
-                <img src="/assets/images/team/member2.jpg" alt="Team Member" />
+                <img src="/assets/images/team/member3.jpg" alt="Team Member" />
               </div>
               <div class="content">
-                <h4>Mohd Arifuddin Bin Rahmad</h4>
+                <h4>Md Arifuddin Rahmad</h4>
                 <span>Creative Lead</span>
               </div>
               <div class="btn-social">
@@ -406,7 +383,7 @@
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-4s">
               <div class="image">
-                <img src="/assets/images/team/member3.jpg" alt="Team Member" />
+                <img src="/assets/images/team/member2.jpg" alt="Team Member" />
               </div>
               <div class="content">
                 <h4>Tricia Ng</h4>
@@ -468,29 +445,44 @@
               class="section-title text-center mb-60 wow fadeInUp delay-0-2s"
             >
               <span class="sub-title mb-20">Pricing Package</span>
-              <h2>Best Pricing Package For All Web Design Solutions</h2>
+              <h2>Best Pricing Package For All Our Solutions</h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-xl-4 col-md-6 wow fadeInUp delay-0-2s">
+
+          <div class="col-xl-4 col-md-6 wow fadeInUp delay-0-4s">
             <div
-              class="pricing-banner"
+              class="pricing-plan-item style-three"
               style="
-                background-image: url(assets/images/background/pricing-banner-bg.jpg);
+                background-image: url(assets/images/shapes/pricing-plan-bg.png);
               "
             >
-              <span class="join-us">Join With Us</span>
-              <h4>Amazing Pricing For Growth Business</h4>
-              <NuxtLink class="details-btn" href="pricing"
-                ><i class="far fa-arrow-right"></i
-              ></NuxtLink>
-              <div class="hand-shape">
-                <img
-                  src="/assets/images/shapes/pricing-banner-hand-shape.png"
-                  alt="Pricing Banner Shape"
-                />
+              <div class="icon-title">
+                <div class="icon">
+                  <img src="/assets/images/icons/price.svg" alt="Icon" />
+                </div>
+                <h5>Graphic & Video Package</h5>
               </div>
+              <p>
+                We offer Graphic Design and Video Editing Services that are visually captivating and customized to your brand.
+              </p>
+              <ul class="list-style-one">
+                <li>Social Media Posters</li>
+                <li>Logo</li>
+                <li>Posters</li>
+                <li>Packaging</li>
+                <li>Printing</li>
+              </ul>
+              <div class="price-offer">
+                <span class="price-text"
+                  ><span class="before">from </span
+                  ><span class="price">RM50</span></span
+                >
+                <img src="/assets/images/shapes/right-arrow.png" alt="Arrow" />
+
+              </div>
+
             </div>
           </div>
           <div class="col-xl-4 col-md-6 wow fadeInUp delay-0-4s">
@@ -504,11 +496,10 @@
                 <div class="icon">
                   <img src="/assets/images/icons/price.svg" alt="Icon" />
                 </div>
-                <h5>Monthly Package</h5>
+                <h5>Website Development</h5>
               </div>
               <p>
-                We denounce with righteous indignation dislike beguiled and
-                demoralize
+                We make great, easy-to-use websites with different tools that fit your budget.
               </p>
               <ul class="list-style-one">
                 <li>Landing Page Design</li>
@@ -520,15 +511,12 @@
               </ul>
               <div class="price-offer">
                 <span class="price-text"
-                  ><span class="before">$</span
-                  ><span class="price">18.3</span></span
+                  ><span class="before">from </span
+                  ><span class="price">RM1800</span></span
                 >
                 <img src="/assets/images/shapes/right-arrow.png" alt="Arrow" />
-                <span class="offer-text">Save 15%</span>
+
               </div>
-              <NuxtLink href="pricing" class="theme-btn w-100"
-                >Choose Package <i class="far fa-arrow-right"></i
-              ></NuxtLink>
             </div>
           </div>
           <div class="col-xl-4 col-md-6 wow fadeInUp delay-0-6s">
@@ -542,31 +530,26 @@
                 <div class="icon">
                   <img src="/assets/images/icons/price.svg" alt="Icon" />
                 </div>
-                <h5>Yearly Package</h5>
+                <h5>Social Media Marketing</h5>
               </div>
               <p>
-                We denounce with righteous indignation dislike beguiled and
-                demoralize
+                We create and manage your social media content, allowing you to focus on growing your business.
               </p>
               <ul class="list-style-one">
-                <li>Landing Page Design</li>
-                <li>Web Development</li>
-                <li>SEO Optimizations</li>
-                <li>Mobile Applications Design</li>
-                <li>Quality Assurance</li>
-                <li>Customs Services</li>
+                <li>Create Posts & Reels</li>
+                <li>Create Facebook Ads</li>
+                <li>Frequent Reports</li>
+                <li>Consulation for Promotions</li>
+                <li>Different Social Media Platforms</li>
               </ul>
               <div class="price-offer">
                 <span class="price-text"
-                  ><span class="before">$</span
-                  ><span class="price">18.3</span></span
+                  ><span class="before">from</span
+                  ><span class="price">RM 700</span></span
                 >
                 <img src="/assets/images/shapes/right-arrow.png" alt="Arrow" />
-                <span class="offer-text">Save 15%</span>
               </div>
-              <NuxtLink href="pricing" class="theme-btn w-100"
-                >Choose Package <i class="far fa-arrow-right"></i
-              ></NuxtLink>
+
             </div>
           </div>
         </div>

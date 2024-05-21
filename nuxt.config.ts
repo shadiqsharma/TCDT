@@ -9,11 +9,14 @@ export default defineNuxtConfig({
   },
   hooks: {
     'build:extendRoutes'(routes, resolve) {
+      const existingRouteIndex = routes.findIndex(route => route.name === 'manifest-route-rule');
+      if (existingRouteIndex !== -1) {
+        routes.splice(existingRouteIndex, 1);
+      }
       routes.push({
         name: 'manifest-route-rule',
         path: '/some-path',
         component: resolve(__dirname, 'middleware/manifest-route-rule.js'),
-        // @ts-ignore - Custom property, may need type adjustments
         override: true  // Set this to override the existing middleware
       });
     }

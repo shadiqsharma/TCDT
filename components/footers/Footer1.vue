@@ -43,13 +43,7 @@
               <span>Let’s Work Together</span>
             </div>
             <div class="footer-contact-info wow fadeInUp delay-0-3s">
-              <a class="theme-btn style-three"
-                >team@tcdigital.tech<i class="far fa-arrow-right"></i
-              ></a>
-              <a
-                class="theme-btn style-three phone-number"
-                >+6013 2555051<i class="far fa-arrow-right"></i
-              ></a>
+
             </div>
           </div>
         </div>
@@ -58,18 +52,11 @@
             <h4 class="footer-title wow fadeInUp delay-0-2s">Quick Links</h4>
             <div class="footer-widget widget_nav_menu">
               <ul class="list-style-two wow fadeInUp delay-0-3s">
-                <li><NuxtLink href="about">Home</NuxtLink></li>
-                <li><NuxtLink href="services">Popular Services</NuxtLink></li>
-                <li><NuxtLink href="team">Team Member</NuxtLink></li>
-                <li><NuxtLink href="blog">Latest News</NuxtLink></li>
-                <li><NuxtLink href="contact">Contact Us?</NuxtLink></li>
+                <li><NuxtLink href="contact">Contact Us</NuxtLink></li>
+                <li><NuxtLink href="faqs">Faqs</NuxtLink></li>
               </ul>
               <ul class="list-style-two wow fadeInUp delay-0-4s">
-                <li><NuxtLink href="/">UI/UX Design</NuxtLink></li>
-                <li><NuxtLink href="index2">Development</NuxtLink></li>
-                <li><NuxtLink href="index3">Marketing</NuxtLink></li>
-                <li><NuxtLink href="contact">Need a Career</NuxtLink></li>
-                <li><NuxtLink href="faqs">Faqs ?</NuxtLink></li>
+
               </ul>
             </div>
           </div>
